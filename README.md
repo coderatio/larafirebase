@@ -17,11 +17,16 @@ Then, we need to install our npm dependencies. Do that by executing this command
 ```vim
 npm install
 ```
-Lastly, open app folder and create a new folder called `secret` and paste your Google service account key. Then, open `PostsController` and put the path to that file on our LaraFirebase object instance. e.g
+Open app folder and create a new folder called `secret` and paste your Google service account key. Then, open `PostsController` and put the path to that file on our LaraFirebase object instance. e.g
 
 ```php
 $this->pfb = new LaraFirebase('../secret/php-crud-f7984-3f535927d6d2.json'); 
 // Change this path as per your key name
+```
+
+To see the app, execute this command on your terminal.
+```vim
+php artisan serve
 ```
 
 That's all you need to do.
