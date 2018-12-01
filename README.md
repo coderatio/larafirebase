@@ -20,7 +20,8 @@ npm install
 Lastly, open app folder and create a new folder called `secret` and paste your Google service account key. Then, open `PostsController` and put the path to that file on our LaraFirebase object instance. e.g
 
 ```php
-$this->pfb = new LaraFirebase('../secret/php-crud-f7984-3f535927d6d2.json'); Change this path as per your key name
+$this->pfb = new LaraFirebase('../secret/php-crud-f7984-3f535927d6d2.json'); 
+// Change this path as per your key name
 ```
 
 That's all you need to do.
